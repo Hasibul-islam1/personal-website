@@ -1,5 +1,6 @@
 body{
     font-family: 'Lato', sans-serif;
+    margin: 0;
 }
 p{
     color: dimgray;
@@ -29,6 +30,7 @@ p{
 .top{
     background-image: url("img/header-bg.png");
     background-repeat: no-repeat;
+    background-size: cover;
 }
 section{
     height:500px;
@@ -45,4 +47,57 @@ section{
 .bio{
     background-image: url("img/biography-bg.png");
     background-repeat: no-repeat;
+   background-size: cover;
+}
+.work-site{
+    text-align: center;
+    padding: 30px;
+}
+.work-site{
+    background-image: url("img/latest-work-bg.png");
+    background-repeat: no-repeat;
+   background-size: cover;
+}
+.work img{
+   width: 30%;
+   float: left;
+   padding-left:2%;
+   margin-top: 20px;
+}
+.midel{
+    text-align: center;
+}
+#midel{
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 30px;
+}
+#last{
+    margin: 0 auto;
+    padding:17px 45px;
+    text-align: center;
+    color: #ffffff;
+    background-color: rgb(236, 43, 75);
+    width: 900px;
+    border-radius: 7px;
+}
+footer p{
+    text-align: center;
+    padding-top: 40px;
+}
+footer{
+    background-image: url("img/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.button1{
+    
+    text-decoration: none;
+    background-image: linear-gradient(45deg,yellow,red);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-left: 41%;
+    margin-right: -39%;
 }
